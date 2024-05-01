@@ -1,5 +1,6 @@
-[Stack](#Stack)
-[Queue](#queue)
+## Table of Contents
+- [Stack](#Stack)
+- [Queue](#queue)
 
 ## Stack
 
