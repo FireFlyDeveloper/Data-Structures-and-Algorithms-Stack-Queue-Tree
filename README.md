@@ -137,7 +137,7 @@ int main() {
   cout << output << endl;
 
   return 0;
-}
+}```cpp
 
 
 ## Queue
