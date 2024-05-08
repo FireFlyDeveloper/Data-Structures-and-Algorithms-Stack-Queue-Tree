@@ -54,17 +54,22 @@ void peek() {
 }
 
 int main() {
-  string name;
-  int date;
-  // Loop to input chocolate details and enqueue them
-  for (int i = 0; i < 10; i++) {
-    cout << "Enter name of chocolate: ";
-    cin >> name;
-    cout << "Enter expiration date of chocolate (Days): ";
-    cin >> date;
-    Chocolate x = {name, date};
-    enqueue(x);
-  }
+  Chocolate x;
+
+  x = {"Toblerone", 300};
+  enqueue(x);
+
+  x = {"Cadbury", 200};
+  enqueue(x);
+
+  x = {"Mars", 100};
+  enqueue(x);
+
+  x = {"KitKat", 150};
+  enqueue(x);
+
+  x = {"Bounty", 50};
+  enqueue(x);
 
   peek(); // Peek at the chocolate with the longest expiration date
 
