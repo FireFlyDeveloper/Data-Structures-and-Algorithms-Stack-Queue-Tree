@@ -137,35 +137,35 @@ void traverseArray()
 int main()
 {
     // Test insertions
-    cout << insertAtTheEnd(3);
-    cout << insertAtTheEnd(7);
-    cout << insertAtTheEnd(9);
-    cout << insertAtTheEnd(11);
-    cout << insertAtTheEnd(15);
+    cout << insertAtTheEnd(3); // Insert 3 at the end
+    cout << insertAtTheEnd(7); // Insert 7 at the end
+    cout << insertAtTheEnd(9); // Insert 9 at the end
+    cout << insertAtTheEnd(11); // Insert 11 at the end
+    cout << insertAtTheEnd(15); // Insert 15 at the end
 
-    traverseArray();
+    traverseArray(); // Display the array
 
-    cout << insertAtTheBeginning(3);
-    cout << insertAtTheEnd(7);
-    cout << insertAtTheEnd(9);
-    cout << insertAtTheBeginning(20);
-    cout << insertAtTheGivenPosition(37, 7);
-    cout << insertAtTheBeginning(256);
-    cout << insertAtTheGivenPosition(128, 9);
-    cout << insertAtTheBeginning(19);
-    traverseArray();
+    cout << insertAtTheBeginning(3); // Insert 3 at the beginning
+    cout << insertAtTheEnd(7); // Insert 7 at the end
+    cout << insertAtTheEnd(9); // Insert 9 at the end
+    cout << insertAtTheBeginning(20); // Insert 20 at the beginning
+    cout << insertAtTheGivenPosition(37, 7); // Insert 37 after the element 7
+    cout << insertAtTheBeginning(256); // Insert 256 at the beginning
+    cout << insertAtTheGivenPosition(128, 9); // Insert 128 after the element 9
+    cout << insertAtTheBeginning(19); // Insert 19 at the beginning
+    traverseArray(); // Display the array
     
     // Test deletions
-    cout << deleteFromTheBeginning();
-    cout << deleteFromTheBeginning();
+    cout << deleteFromTheBeginning(); // Delete from the beginning
+    cout << deleteFromTheBeginning(); // Delete from the beginning again
 
-    cout << deleteFromTheEnd();
-    cout << deleteFromTheEnd();
+    cout << deleteFromTheEnd(); // Delete from the end
+    cout << deleteFromTheEnd(); // Delete from the end again
 
-    cout << deleteFromGivenElement(7);
-    cout << deleteFromGivenElement(8);
+    cout << deleteFromGivenElement(7); // Delete the element 7
+    cout << deleteFromGivenElement(8); // Try to delete the element 8 (not in array)
 
-    traverseArray();
+    traverseArray(); // Display the array
 
     return 0;
 }
